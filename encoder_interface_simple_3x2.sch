@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 5
+Sheet 1 2
 Title "encoder_interface_simple_3x2"
 Date ""
 Rev "1.0"
@@ -159,9 +159,9 @@ F 3 "" H 3500 -200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 800  4750 900 
+	4750 900  4750 800 
 Wire Wire Line
-	4750 900  3900 900 
+	3900 900  4750 900 
 Wire Wire Line
 	4450 800  4450 900 
 Connection ~ 4450 900 
@@ -257,7 +257,7 @@ F 3 "" H 1250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 4100 2450 4100
+	2450 4100 2500 4100
 Wire Wire Line
 	2450 3600 2450 4150
 Wire Wire Line
@@ -396,18 +396,10 @@ Wire Wire Line
 	1400 1300 1300 1300
 Wire Wire Line
 	1400 1400 1300 1400
-Wire Wire Line
-	1400 1500 1300 1500
-Wire Wire Line
-	1400 1600 1300 1600
 Text Label 1300 1300 2    60   ~ 0
-IN_0
+ENCODER_A_0
 Text Label 1300 1400 2    60   ~ 0
-IN_1
-Text Label 1300 1500 2    60   ~ 0
-IN_2
-Text Label 1300 1600 2    60   ~ 0
-IN_3
+ENCODER_B_0
 Wire Wire Line
 	3900 1200 4000 1200
 Wire Wire Line
@@ -425,51 +417,25 @@ OUT_2
 Text Label 4000 1200 0    60   ~ 0
 OUT_3
 $Sheet
-S 6550 1350 1200 300 
+S 6550 1350 900  450 
 U 58C073FC
 F0 "encoder_0" 60
 F1 "encoder.sch" 60
-F2 "OUT" O R 7750 1500 60 
+F2 "CHANNEL_A" O R 7450 1500 60 
+F3 "CHANNEL_B" O R 7450 1650 60 
 $EndSheet
 Wire Wire Line
-	7750 1500 7850 1500
-Text Label 7850 1500 0    60   ~ 0
-IN_0
-$Sheet
-S 6550 1950 1200 300 
-U 58C07A02
-F0 "encoder_1" 60
-F1 "encoder.sch" 60
-F2 "OUT" O R 7750 2100 60 
-$EndSheet
-Wire Wire Line
-	7750 2100 7850 2100
-Text Label 7850 2100 0    60   ~ 0
-IN_1
-$Sheet
-S 6550 2550 1200 300 
-U 58C07B46
-F0 "encoder_2" 60
-F1 "encoder.sch" 60
-F2 "OUT" O R 7750 2700 60 
-$EndSheet
-Wire Wire Line
-	7750 2700 7850 2700
-Text Label 7850 2700 0    60   ~ 0
-IN_2
-$Sheet
-S 6550 3150 1200 300 
-U 58C07B4B
-F0 "encoder_3" 60
-F1 "encoder.sch" 60
-F2 "OUT" O R 7750 3300 60 
-$EndSheet
-Wire Wire Line
-	7750 3300 7850 3300
-Text Label 7850 3300 0    60   ~ 0
-IN_3
+	7450 1500 7550 1500
 Wire Wire Line
 	1400 1200 1300 1200
 Text Label 1300 1200 2    60   ~ 0
 ~ENABLE
+Wire Wire Line
+	7450 1650 7550 1650
+Text Label 7550 1500 0    60   ~ 0
+ENCODER_A_0
+Text Label 7550 1650 0    60   ~ 0
+ENCODER_B_0
+NoConn ~ 1400 1600
+NoConn ~ 1400 1500
 $EndSCHEMATC
