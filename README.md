@@ -1,4 +1,4 @@
-#encoder_interface_simple_3x2
+# encoder_interface_simple_3x2
 
 Authors:
 
