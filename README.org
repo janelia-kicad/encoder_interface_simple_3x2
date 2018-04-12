@@ -1,0 +1,7 @@
+#+TITLE: encoder_interface_simple_3x2
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peterpolidoro@gmail.com
+
+* Repository Information
+  - Author :: Peter Polidoro
+  - License :: Open-Source Hardware
