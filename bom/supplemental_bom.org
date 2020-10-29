@@ -1,0 +1,8 @@
+* Supplemental Bill of Materials
+#+RESULTS: supplemental-parts
+| Item | Quantity | Manufacturer            | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                      |
+|------+----------+-------------------------+--------------------------+----------+--------------------+----------------------------------|
+|    1 |        1 | Molex                   |               0050579405 | Digi-Key | WM2903-ND          | CONN HOUSING 5POS .100 W/LATCH   |
+|    2 |        5 | Molex                   |               0016021117 | Digi-Key | WM2572-ND          | CONN SOCKET 24-30AWG CRIMP GOLD  |
+|    3 |        2 | TPI (Test Products Int) |                58-024-1M | Digi-Key | 290-1010-ND        | CBL ASSY BNC PLUG-PLUG RG58 24IN |
+#+tblfm: $1=@#-1

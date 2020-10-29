@@ -1,0 +1,11 @@
+# Created 2020-10-29 Thu 12:23
+* Bill of Materials
+#+results: pcb-parts
+| Item | Reference(s) | Quantity | Manufacturer                    | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                                                       | Package            |
+|------+--------------+----------+---------------------------------+--------------------------+----------+--------------------+-------------------------------------------------------------------+--------------------|
+|    1 | C1           |        1 | KEMET                           | C1210X104K1RAC7800       | Digi-Key | 399-13229-1-ND     | CAP CER 0.1UF 50V 10% X7R                                         | 1210 (3225 Metric) |
+|    2 | MDB1         |        2 | Sullins Connector Solutions     | PBC16SAAN                | digikey  | S1011E-16-ND       | 16 Position Header Through Hole Male Pins                         |                    |
+|    3 | P1           |        1 | Amphenol RF                     | 112661                   | Digi-Key | ACX1655-ND         | CONN BNC JACK R/A 75 OHM PCB                                      |                    |
+|    4 | P2           |        1 | Molex                           | 0740991005               | Digi-Key | WM7205-ND          | CONN HEADER .100 VERT 5POS SMD                                    |                    |
+|    5 | R1 R2        |        2 | Panasonic Electronic Components | ERJ-14NF3161U            | Digi-Key | P3.16KAACT-ND      | RES SMD 3.16K OHM 1% 1/2W 1210                                    |                    |
+|    6 | U1           |        1 | Texas Instruments               | SN74ABT541BDWR           | Digi-Key | 296-14668-1-ND     | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output | 20-SOIC            |

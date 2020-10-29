@@ -1,0 +1,17 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name encoder_interface_simple_3x2
+  #+MACRO: version 1.1
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/encoder_interface_simple_3x2
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+  This board provides a simple encoder interace with buffered encoder signal
+  outputs.
+
+* Assembly Instructions
+
+  - Solder surface mount and through hole components onto the pcb.
