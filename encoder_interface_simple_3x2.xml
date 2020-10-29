@@ -39,7 +39,7 @@
         <field name="Description">16 Position Header Through Hole Male Pins</field>
         <field name="PartCount">2</field>
         <field name="PartNumber">S1011E-16-ND</field>
-        <field name="Vendor">digikey</field>
+        <field name="Vendor">Digi-Key</field>
       </fields>
       <libsource lib="encoder_interface_simple_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE" description=""/>
       <sheetpath names="/" tstamps="/"/>
