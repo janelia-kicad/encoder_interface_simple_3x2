@@ -1,19 +1,19 @@
-- [Repository Information](#org52fc431)
-  - [Description](#orga748eac)
-- [Images](#org4c19e3d)
-- [Schematic](#orgec002b5)
-- [Gerbers](#org0c30e3e)
-- [Bill of Materials](#orgb29e6f6)
-  - [PCB Parts](#org8cb0470)
-  - [Supplemental Parts](#org4135907)
-  - [Vendor Parts Lists](#orgea7cc53)
-- [Supplemental Documentation](#orgc7262e8)
-  - [Assembly Instructions](#orgf035cc8)
-- [Manufacturing Archive](#org4deee22)
+- [Repository Information](#orgb147bf3)
+  - [Description](#org8e3bae9)
+- [Images](#org7099fdc)
+- [Schematic](#org4a67db8)
+- [Gerbers](#org8729698)
+- [Bill of Materials](#org40f1ed6)
+  - [PCB Parts](#org051be0c)
+  - [Supplemental Parts](#orgbf1fa54)
+  - [Vendor Parts Lists](#org75a438f)
+- [Supplemental Documentation](#org5ec4243)
+  - [Assembly Instructions](#org6c46454)
+- [Manufacturing Archive](#org6b4d140)
 
 
 
-<a id="org52fc431"></a>
+<a id="orgb147bf3"></a>
 
 # Repository Information
 
@@ -25,19 +25,19 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="orga748eac"></a>
+<a id="org8e3bae9"></a>
 
 ## Description
 
 This board provides a simple encoder interace with buffered encoder signal outputs.
 
 
-<a id="org4c19e3d"></a>
+<a id="org7099fdc"></a>
 
 # Images
 
 
-<a id="orgec002b5"></a>
+<a id="org4a67db8"></a>
 
 # Schematic
 
@@ -48,7 +48,7 @@ This board provides a simple encoder interace with buffered encoder signal outpu
 ![img](./schematic/images/schematic01.png)
 
 
-<a id="org0c30e3e"></a>
+<a id="org8729698"></a>
 
 # Gerbers
 
@@ -57,12 +57,12 @@ This board provides a simple encoder interace with buffered encoder signal outpu
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="orgb29e6f6"></a>
+<a id="org40f1ed6"></a>
 
 # Bill of Materials
 
 
-<a id="org8cb0470"></a>
+<a id="org051be0c"></a>
 
 ## PCB Parts
 
@@ -76,7 +76,7 @@ This board provides a simple encoder interace with buffered encoder signal outpu
 | 6    | U1           | 1        | Texas Instruments               | SN74ABT541BDWR           | Digi-Key | 296-14668-1-ND     | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output | 20-SOIC            |
 
 
-<a id="org4135907"></a>
+<a id="orgbf1fa54"></a>
 
 ## Supplemental Parts
 
@@ -87,7 +87,7 @@ This board provides a simple encoder interace with buffered encoder signal outpu
 | 3    | 2        | TPI (Test Products Int) | 58-024-1M                | Digi-Key | 290-1010-ND        | CBL ASSY BNC PLUG-PLUG RG58 24IN |
 
 
-<a id="orgea7cc53"></a>
+<a id="org75a438f"></a>
 
 ## Vendor Parts Lists
 
@@ -96,19 +96,19 @@ This board provides a simple encoder interace with buffered encoder signal outpu
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="orgc7262e8"></a>
+<a id="org5ec4243"></a>
 
 # Supplemental Documentation
 
 
-<a id="orgf035cc8"></a>
+<a id="org6c46454"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org4deee22"></a>
+<a id="org6b4d140"></a>
 
 # Manufacturing Archive
 
